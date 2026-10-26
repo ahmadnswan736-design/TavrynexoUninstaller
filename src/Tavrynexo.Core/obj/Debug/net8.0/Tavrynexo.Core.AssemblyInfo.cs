@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tavrynexo Software")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7820ee4ec7608698c37426391d602781a06662af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa5e7040c2330bd36654071e4cd06caa49a14630")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tavrynexo Uninstaller Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tavrynexo.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

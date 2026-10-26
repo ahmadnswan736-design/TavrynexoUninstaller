@@ -1,69 +1,41 @@
-namespace Tavrynexo.Core.Enums;
-
-public enum ApplicationType
+namespace Tavrynexo.Core.Enums
 {
-    Win32Registry,
-    WindowsInstallerMsi,
-    UniversalWindowsPlatformAppx,
-    PortableOrManualDirectory,
-    SystemComponent
-}
+    public enum LeftoverType
+    {
+        File,
+        Folder,
+        RegistryKey,
+        RegistryValue,
+        Service,
+        ScheduledTask,
+        Driver,
+        AppData,
+        TempFile
+    }
 
-public enum LeftoverType
-{
-    RegistryKey,
-    RegistryValue,
-    FileSystemDirectory,
-    FileSystemFile,
-    WindowsService,
-    ScheduledTask,
-    ShortcutOrStartMenuEntry,
-    BrowserExtension,
-    ComRegistrationClsid
-}
+    public enum SafetyLevel
+    {
+        Safe,
+        ReviewRecommended,
+        Danger,
+        SystemProtected
+    }
 
-public enum SafetyLevel
-{
-    SafeToPurge = 0,
-    Safe = 0,
-    ReviewRecommended = 1,
-    Caution = 1,
-    SystemProtected = 2,
-    HighRisk = 2
-}
+    public enum ConfidenceLevel
+    {
+        Low,
+        Medium,
+        High,
+        Definite
+    }
 
-public enum ScanDepth
-{
-    Quick,
-    Standard,
-    DeepThorough
-}
-
-public enum UninstallStage
-{
-    Idle,
-    CreatingSystemRestorePoint,
-    CreatingRegistryBackup,
-    ExecutingNativeUninstaller,
-    ScanningLeftovers,
-    ReviewingLeftovers,
-    PurgingResidue,
-    Completed,
-    Failed
-}
-
-public enum InstallType
-{
-    PerMachine,
-    PerUser,
-    System,
-    Portable
-}
-
-public enum ConfidenceLevel
-{
-    Low = 0,
-    Medium = 1,
-    High = 2,
-    Certain = 3
+    public enum InstallType
+    {
+        PerMachine,
+        PerUser,
+        MSI,
+        InnoSetup,
+        NSIS,
+        Unknown
+    }
 }
