@@ -51,3 +51,19 @@ public enum UninstallStage
     Completed,
     Failed
 }
+
+public enum InstallType
+{
+    PerMachine,
+    PerUser,
+    System,
+    Portable
+}
+
+public enum ConfidenceLevel
+{
+    Low = 0,
+    Medium = 1,
+    High = 2,
+    Certain = 3
+}
