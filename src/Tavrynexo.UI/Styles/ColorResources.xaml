@@ -12,16 +12,7 @@
     <SolidColorBrush x:Key="TnSuccessBrush" Color="{StaticResource TnSuccessColor}" />
     <SolidColorBrush x:Key="TnWarningBrush" Color="{StaticResource TnWarningColor}" />
 
-    <ResourceDictionary.ThemeDictionaries>
-        <ResourceDictionary x:Key="Dark">
-            <SolidColorBrush x:Key="TnSurfaceBrush" Color="#1F1F1F" />
-            <SolidColorBrush x:Key="TnCardBrush" Color="#282828" />
-            <SolidColorBrush x:Key="TnBorderBrush" Color="#383838" />
-        </ResourceDictionary>
-        <ResourceDictionary x:Key="Light">
-            <SolidColorBrush x:Key="TnSurfaceBrush" Color="#F3F3F3" />
-            <SolidColorBrush x:Key="TnCardBrush" Color="#FFFFFF" />
-            <SolidColorBrush x:Key="TnBorderBrush" Color="#E5E5E5" />
-        </ResourceDictionary>
-    </ResourceDictionary.ThemeDictionaries>
+    <SolidColorBrush x:Key="TnSurfaceBrush" Color="#1F1F1F" />
+    <SolidColorBrush x:Key="TnCardBrush" Color="#282828" />
+    <SolidColorBrush x:Key="TnBorderBrush" Color="#383838" />
 </ResourceDictionary>

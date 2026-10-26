@@ -4,9 +4,9 @@ namespace Tavrynexo.Core.Models;
 
 public enum ConfidenceRating
 {
-    HighCertainty,     // 90-100%: أدلة قاطعة ومطابقة كاملة لبيانات الناشر أو InProcServer
-    ModerateCertainty, // 70-89%: دليل قوي من مجلد فرعي للناشر
-    Uncertain          // <70%: أدلة غير كافية، يُترك غير محدد افتراضياً لحماية النظام
+    HighCertainty,
+    ModerateCertainty,
+    Uncertain
 }
 
 public enum EvidenceType
@@ -33,6 +33,9 @@ public class DetailedLeftoverItem : LeftoverItem
     public List<LeftoverEvidence> Evidences { get; set; } = new();
     public string ExplanationWhyFlagged { get; set; } = string.Empty;
     public bool IsSharedDependencyRisk { get; set; }
+    public int ConfidenceScore { get; set; }
+    public SafetyLevel SafetyLevel { get => Safety; set => Safety = value; }
+    public bool IsSelectedForRemoval { get => IsSelected; set => IsSelected = value; }
 
     public string RatingText => Rating switch
     {

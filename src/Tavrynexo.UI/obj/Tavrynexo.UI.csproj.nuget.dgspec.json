@@ -46,12 +46,6 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.31, )",
-              "autoReferenced": true
-            },
             "System.Text.Json": {
               "target": "Package",
               "version": "[8.0.5, )"
@@ -74,23 +68,11 @@
               "version": "[8.0.31, 8.0.31]"
             },
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[8.0.31, 8.0.31]"
             },
             {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
               "version": "[8.0.31, 8.0.31]"
             }
           ],
@@ -100,11 +82,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     },
@@ -154,12 +131,6 @@
           "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "dependencies": {
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.31, )",
-              "autoReferenced": true
-            },
             "System.IO.Compression": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -186,23 +157,11 @@
               "version": "[8.0.31, 8.0.31]"
             },
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[8.0.31, 8.0.31]"
             },
             {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
               "version": "[8.0.31, 8.0.31]"
             }
           ],
@@ -212,11 +171,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     },
@@ -272,12 +226,6 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.3.2, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.31, )",
-              "autoReferenced": true
             }
           },
           "imports": [
@@ -297,11 +245,7 @@
               "version": "[8.0.31, 8.0.31]"
             },
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
               "version": "[8.0.31, 8.0.31]"
             },
             {
@@ -309,15 +253,7 @@
               "version": "[8.0.31, 8.0.31]"
             },
             {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
               "version": "[8.0.31, 8.0.31]"
             }
           ],
@@ -330,11 +266,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }

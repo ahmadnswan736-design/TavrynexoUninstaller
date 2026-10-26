@@ -12,7 +12,7 @@ public static class DataExportService
         sb.AppendLine("Application Name,Publisher,Version,Install Date,Size (Bytes),Formatted Size,Architecture,Type,Install Location");
         foreach (var app in apps)
         {
-            string date = app.InstallDate?.ToString("yyyy-MM-dd") ?? "Unknown";
+            string date = !string.IsNullOrWhiteSpace(app.InstallDate) ? app.InstallDate : "Unknown";
             string sizeBytes = app.EstimatedSizeBytes?.ToString() ?? "Not Reported";
             sb.AppendLine($"\"{app.DisplayName.Replace("\"", "\"\"")}\",\"{app.Publisher.Replace("\"", "\"\"")}\",\"{app.DisplayVersion}\",\"{date}\",\"{sizeBytes}\",\"{app.FormattedSize}\",\"{app.Architecture}\",\"{app.AppType}\",\"{app.InstallLocation.Replace("\"", "\"\"")}\"");
         }

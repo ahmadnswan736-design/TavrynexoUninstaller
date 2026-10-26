@@ -1,0 +1,9 @@
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.UI/obj/Debug/net8.0-windows/Tavrynexo.UI.csproj.AssemblyReference.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.UI/obj/Debug/net8.0-windows/Tavrynexo.UI_MarkupCompile.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.UI/obj/Debug/net8.0-windows/Styles/ColorResources.baml
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.UI/obj/Debug/net8.0-windows/Tavrynexo.UI.g.resources
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.UI/obj/Debug/net8.0-windows/Tavrynexo.UI.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.UI/obj/Debug/net8.0-windows/Tavrynexo.UI.AssemblyInfoInputs.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.UI/obj/Debug/net8.0-windows/Tavrynexo.UI.AssemblyInfo.cs
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.UI/obj/Debug/net8.0-windows/Tavrynexo.UI.csproj.CoreCompileInputs.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.UI/obj/Debug/net8.0-windows/Tavrynexo.UI.sourcelink.json
