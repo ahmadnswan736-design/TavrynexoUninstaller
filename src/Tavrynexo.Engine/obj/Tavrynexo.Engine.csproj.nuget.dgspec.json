@@ -70,10 +70,6 @@
             {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[8.0.31, 8.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.31, 8.0.31]"
             }
           ],
           "frameworkReferences": {
@@ -158,10 +154,6 @@
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.31, 8.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
               "version": "[8.0.31, 8.0.31]"
             }
           ],

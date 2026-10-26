@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "COsN6T7ehpo=",
+  "success": true,
+  "projectFilePath": "/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/Tavrynexo.Data.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.data.sqlite/9.0.0/microsoft.data.sqlite.9.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.data.sqlite.core/9.0.0/microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
+    "/home/codespace/.nuget/packages/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
+    "/home/codespace/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
+    "/home/codespace/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.10/sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.10 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
+      "projectPath": "/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/Tavrynexo.Data.csproj",
+      "warningLevel": 1,
+      "filePath": "/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/Tavrynexo.Data.csproj",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

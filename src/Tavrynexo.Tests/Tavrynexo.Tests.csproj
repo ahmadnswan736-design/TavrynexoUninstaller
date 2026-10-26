@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Tavrynexo.Core\Tavrynexo.Core.csproj" />
     <ProjectReference Include="..\Tavrynexo.Data\Tavrynexo.Data.csproj" />
+    <ProjectReference Include="..\Tavrynexo.Engine\Tavrynexo.Engine.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />

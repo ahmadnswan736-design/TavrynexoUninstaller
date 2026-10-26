@@ -1,0 +1,7 @@
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_Tavrynexo.Tests
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/obj/Debug/net10.0/Tavrynexo.Tests.csproj.AssemblyReference.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/obj/Debug/net10.0/Tavrynexo.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/obj/Debug/net10.0/Tavrynexo.Tests.AssemblyInfoInputs.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/obj/Debug/net10.0/Tavrynexo.Tests.AssemblyInfo.cs
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/obj/Debug/net10.0/Tavrynexo.Tests.csproj.CoreCompileInputs.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/obj/Debug/net10.0/Tavrynexo.Tests.sourcelink.json
