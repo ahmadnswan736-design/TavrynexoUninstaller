@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WoVtzccuf3U=",
+  "success": true,
+  "projectFilePath": "/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Core/Tavrynexo.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.net.illink.tasks/8.0.31/microsoft.net.illink.tasks.8.0.31.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/8.0.31/microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.win-x64/8.0.31/microsoft.netcore.app.runtime.win-x64.8.0.31.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.31/microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/8.0.31/microsoft.aspnetcore.app.runtime.win-x64.8.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

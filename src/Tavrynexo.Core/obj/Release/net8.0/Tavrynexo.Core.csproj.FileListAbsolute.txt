@@ -1,0 +1,4 @@
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Core/obj/Release/net8.0/Tavrynexo.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Core/obj/Release/net8.0/Tavrynexo.Core.AssemblyInfoInputs.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Core/obj/Release/net8.0/Tavrynexo.Core.AssemblyInfo.cs
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Core/obj/Release/net8.0/Tavrynexo.Core.csproj.CoreCompileInputs.cache
