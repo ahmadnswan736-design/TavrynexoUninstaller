@@ -22,7 +22,7 @@ public class ForensicEvidenceLead
     public bool IsInferredOnly { get; set; } // تمييز الاستنتاج عن الرصد المؤكد
     public string EvidenceJustification { get; set; } = string.Empty;
     public bool IsSelectedForManualPurge { get; set; } = false; // غير محدد للحذف التلقائي نهائياً
-    public SafetyLevel SafetyLevel { get; set; } = SafetyLevel.ReviewRecommended;
+    public SafetyLevel SafetyLevel { get; set; } = Tavrynexo.Core.Enums.SafetyLevel.ReviewRecommended;
 }
 
 public class ForensicAnalysisReport

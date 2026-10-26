@@ -34,7 +34,7 @@ public class JunkCategoryItem
     public string Description { get; set; } = string.Empty;
     public string DirectoryPath { get; set; } = string.Empty;
     public long TotalSizeBytes { get; set; }
-    public SafetyLevel SafetyLevel { get; set; } = SafetyLevel.SafeToPurge;
+    public SafetyLevel SafetyLevel { get; set; } = Tavrynexo.Core.Enums.SafetyLevel.SafeToPurge;
     public bool IsSelectedForCleaning { get; set; } = true;
 
     public string FormattedSize
