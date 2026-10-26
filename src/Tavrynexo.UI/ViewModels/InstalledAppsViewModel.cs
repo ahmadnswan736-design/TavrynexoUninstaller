@@ -1,19 +1,18 @@
 using System.Collections.ObjectModel;
+using System.Globalization;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.Extensions.Logging;
 using Tavrynexo.Core.Enums;
-using Tavrynexo.Core.Interfaces;
 using Tavrynexo.Core.Models;
-using Tavrynexo.Data.Repositories;
+using Tavrynexo.Engine.CoreEngines;
 using Tavrynexo.UI.Services;
 
 namespace Tavrynexo.UI.ViewModels;
 
 public partial class InstalledAppsViewModel : ObservableObject
 {
-    private readonly IApplicationDiscoveryService _discoveryService;
-    private readonly ISqliteRepository _sqliteRepo;
+    private readonly IApplicationDiscoveryEngine _discoveryService;
     private readonly INotificationService _notificationService;
     private readonly ILogger<InstalledAppsViewModel> _logger;
 
@@ -32,10 +31,9 @@ public partial class InstalledAppsViewModel : ObservableObject
     [ObservableProperty] private string _totalFootprintFormatted = "0 GB";
     [ObservableProperty] private string _statusText = "Ready";
 
-    public InstalledAppsViewModel(IApplicationDiscoveryService discoveryService, ISqliteRepository sqliteRepo, INotificationService notificationService, ILogger<InstalledAppsViewModel> logger)
+    public InstalledAppsViewModel(IApplicationDiscoveryEngine discoveryService, INotificationService notificationService, ILogger<InstalledAppsViewModel> logger)
     {
         _discoveryService = discoveryService;
-        _sqliteRepo = sqliteRepo;
         _notificationService = notificationService;
         _logger = logger;
     }
@@ -52,11 +50,10 @@ public partial class InstalledAppsViewModel : ObservableObject
 
         try
         {
-            var apps = await _discoveryService.EnumerateApplicationsAsync(true, false, token);
+            var apps = await _discoveryService.DiscoverApplicationsAsync(true, false, cancellationToken: token);
             token.ThrowIfCancellationRequested();
 
             _allAppsMaster = apps.ToList();
-            await _sqliteRepo.UpsertApplicationsCacheAsync(_allAppsMaster);
             ApplyFiltersAndSort();
 
             TotalInstalledCount = _allAppsMaster.Count;
@@ -89,7 +86,9 @@ public partial class InstalledAppsViewModel : ObservableObject
             "Win32" => result.Where(a => a.AppType == ApplicationType.Win32Registry || a.AppType == ApplicationType.WindowsInstallerMsi),
             "Store" => result.Where(a => a.AppType == ApplicationType.UniversalWindowsPlatformAppx),
             "Large" => result.Where(a => a.EstimatedSizeBytes.HasValue && a.EstimatedSizeBytes.Value > 500 * 1024 * 1024),
-            "Recent" => result.Where(a => a.InstallDate.HasValue && a.InstallDate.Value >= DateTime.Now.AddDays(-30)),
+            "Recent" => result.Where(a =>
+                DateTime.TryParse(a.InstallDate, CultureInfo.InvariantCulture, DateTimeStyles.None, out var installDate)
+                && installDate >= DateTime.Now.AddDays(-30)),
             _ => result
         };
 

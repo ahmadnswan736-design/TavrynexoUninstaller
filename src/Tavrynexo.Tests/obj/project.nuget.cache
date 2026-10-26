@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "vZNbIuEf21M=",
-  "success": false,
+  "dgSpecHash": "qUjTvTkBiDE=",
+  "success": true,
   "projectFilePath": "/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/Tavrynexo.Tests.csproj",
   "expectedPackageFiles": [
     "/home/codespace/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
@@ -9,13 +9,39 @@
     "/home/codespace/.nuget/packages/microsoft.data.sqlite/9.0.0/microsoft.data.sqlite.9.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.data.sqlite.core/9.0.0/microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.net.test.sdk/17.12.0/microsoft.net.test.sdk.17.12.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.testplatform.objectmodel/17.12.0/microsoft.testplatform.objectmodel.17.12.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.testplatform.testhost/17.12.0/microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/runtime.native.system.io.compression/4.3.0/runtime.native.system.io.compression.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
     "/home/codespace/.nuget/packages/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
     "/home/codespace/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
     "/home/codespace/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.10/sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.buffers/4.3.0/system.buffers.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.codedom/8.0.0/system.codedom.8.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.io.compression/4.3.0/system.io.compression.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.management/8.0.0/system.management.8.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.resources.resourcemanager/4.3.0/system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.runtime.extensions/4.3.0/system.runtime.extensions.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.runtime.handles/4.3.0/system.runtime.handles.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.runtime.interopservices/4.3.0/system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/xunit/2.9.2/xunit.2.9.2.nupkg.sha512",
     "/home/codespace/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
     "/home/codespace/.nuget/packages/xunit.analyzers/1.16.0/xunit.analyzers.1.16.0.nupkg.sha512",
@@ -23,31 +49,9 @@
     "/home/codespace/.nuget/packages/xunit.core/2.9.2/xunit.core.2.9.2.nupkg.sha512",
     "/home/codespace/.nuget/packages/xunit.extensibility.core/2.9.2/xunit.extensibility.core.2.9.2.nupkg.sha512",
     "/home/codespace/.nuget/packages/xunit.extensibility.execution/2.9.2/xunit.extensibility.execution.2.9.2.nupkg.sha512",
-    "/home/codespace/.nuget/packages/xunit.runner.visualstudio/2.8.2/xunit.runner.visualstudio.2.8.2.nupkg.sha512"
+    "/home/codespace/.nuget/packages/xunit.runner.visualstudio/2.8.2/xunit.runner.visualstudio.2.8.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/8.0.31/microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.31/microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.10 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
-      "projectPath": "/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/Tavrynexo.Tests.csproj",
-      "warningLevel": 1,
-      "filePath": "/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/Tavrynexo.Tests.csproj",
-      "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project Tavrynexo.Engine is not compatible with net10.0 (.NETCoreApp,Version=v10.0). Project Tavrynexo.Engine supports: net8.0-windows7.0 (.NETCoreApp,Version=v8.0)",
-      "projectPath": "/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/Tavrynexo.Tests.csproj",
-      "filePath": "/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Tests/Tavrynexo.Tests.csproj",
-      "libraryId": "Tavrynexo.Engine",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

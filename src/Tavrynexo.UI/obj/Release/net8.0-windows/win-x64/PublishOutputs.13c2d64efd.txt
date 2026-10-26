@@ -1,0 +1,4 @@
+/tmp/tavrynexo-ci-publish/Tavrynexo.UI.pdb
+/tmp/tavrynexo-ci-publish/Tavrynexo.Core.pdb
+/tmp/tavrynexo-ci-publish/Tavrynexo.Engine.pdb
+/tmp/tavrynexo-ci-publish/Tavrynexo.UI.exe

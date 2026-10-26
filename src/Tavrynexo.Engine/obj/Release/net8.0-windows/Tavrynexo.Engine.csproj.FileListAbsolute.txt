@@ -1,0 +1,16 @@
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/bin/Release/net8.0-windows/Tavrynexo.Engine.deps.json
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/bin/Release/net8.0-windows/Tavrynexo.Engine.dll
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/bin/Release/net8.0-windows/Tavrynexo.Engine.pdb
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/bin/Release/net8.0-windows/Tavrynexo.Core.dll
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/bin/Release/net8.0-windows/Tavrynexo.Core.pdb
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/Tavrynexo.Engine.csproj.AssemblyReference.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/Tavrynexo.Engine.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/Tavrynexo.Engine.AssemblyInfoInputs.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/Tavrynexo.Engine.AssemblyInfo.cs
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/Tavrynexo.Engine.csproj.CoreCompileInputs.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/Tavrynexo.Engine.sourcelink.json
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/Tavrynex.F742235F.Up2Date
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/Tavrynexo.Engine.dll
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/refint/Tavrynexo.Engine.dll
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/Tavrynexo.Engine.pdb
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Engine/obj/Release/net8.0-windows/ref/Tavrynexo.Engine.dll

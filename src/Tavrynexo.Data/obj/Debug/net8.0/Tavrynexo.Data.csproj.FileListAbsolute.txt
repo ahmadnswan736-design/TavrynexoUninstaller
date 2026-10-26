@@ -1,0 +1,16 @@
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/bin/Debug/net8.0/Tavrynexo.Data.deps.json
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/bin/Debug/net8.0/Tavrynexo.Data.dll
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/bin/Debug/net8.0/Tavrynexo.Data.pdb
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/bin/Debug/net8.0/Tavrynexo.Core.dll
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/bin/Debug/net8.0/Tavrynexo.Core.pdb
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/Tavrynexo.Data.csproj.AssemblyReference.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/Tavrynexo.Data.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/Tavrynexo.Data.AssemblyInfoInputs.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/Tavrynexo.Data.AssemblyInfo.cs
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/Tavrynexo.Data.csproj.CoreCompileInputs.cache
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/Tavrynexo.Data.sourcelink.json
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/Tavrynex.A0106C99.Up2Date
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/Tavrynexo.Data.dll
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/refint/Tavrynexo.Data.dll
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/Tavrynexo.Data.pdb
+/workspaces/codespaces-blank/TavrynexoUninstaller/src/Tavrynexo.Data/obj/Debug/net8.0/ref/Tavrynexo.Data.dll
